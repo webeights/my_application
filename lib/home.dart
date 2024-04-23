@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CustomText('ERISH POGI 123'),
-            CustomButton('THIS IS MY BUTTON')
+            CustomButton('THIS IS MY BUTTON'),
           ],
         ),
       ),
