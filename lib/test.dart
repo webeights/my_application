@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SignInScreen extends StatelessWidget {
-  const SignInScreen({super.key});
+class HelloScreen extends StatelessWidget {
+  const HelloScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,10 +9,7 @@ class SignInScreen extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Sign in Screen'),
-          Text('ERISH POGI HELLO WORLD'),
-          Text('Hello World Dencel'),
-          Text('ERISH POGI POGI POGI POGI'),
+          Text('Meow'),
         ],
       ),
     );
