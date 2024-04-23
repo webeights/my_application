@@ -8,9 +8,7 @@ class SignInScreen extends StatelessWidget {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text('Sign in Screen'),
-        ],
+        children: [Text('Sign in Screen'), Text('ERISH POGI HELLO WORLD')],
       ),
     );
   }
