@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_application/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,24 +17,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const HomeScreen(),
-    );
-  }
-}
-
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Hello World!'),
-          ],
-        ),
-      ),
     );
   }
 }
