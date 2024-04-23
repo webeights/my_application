@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:my_application/custom_button.dart';
+import 'package:my_application/custom_icon.dart';
 import 'package:my_application/custom_text.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -13,7 +14,8 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CustomText('ERISH POGI 123'),
-            CustomButton('THIS IS MY BUTTON')
+            CustomButton('THIS IS MY BUTTON'),
+            CustomIcon(icon: Icons.golf_course),
           ],
         ),
       ),
