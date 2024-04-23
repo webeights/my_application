@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_application/custom_text.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,9 +10,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Hello World!'),
-          ],
+          children: [CustomText('ERISH POGI 123')],
         ),
       ),
     );
