@@ -12,6 +12,7 @@ class SignInScreen extends StatelessWidget {
           Text('Sign in Screen'),
           Text('ERISH POGI HELLO WORLD'),
           Text('Hello World Dencel'),
+          Text('ERISH POGI POGI POGI POGI'),
         ],
       ),
     );
